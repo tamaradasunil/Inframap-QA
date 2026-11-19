@@ -1,22 +1,14 @@
-# InfraMap 1.0.1 — shared Android and iOS source
+# InfraMap iOS · Version 1.0.0
 
-This is one Expo project for both Android and iOS. Use the same source folder and select the target platform when building.
+This folder is a complete Expo project source snapshot for InfraMap iOS version 1.0.0.
 
-## Android APK
+## Build
 
-```powershell
-cd app/1.0.1
-npm install
-npx eas-cli build --platform android --profile preview
-```
+From this folder, run:
 
-## iOS build
-
-```powershell
-cd app/1.0.1
+`powershell
 npm install
 npx eas-cli build --platform ios --profile preview-ios
-```
+`
 
-App screens and business logic are shared. Expo applies platform-specific native settings at build time. Google Maps API keys are optional and are not included in this repository.
-
+The shared Expo screens are platform-aware. Android uses Google Maps; iOS uses Apple Maps until an iOS Google Maps API key is configured. No credentials or API keys are included in this source snapshot.
