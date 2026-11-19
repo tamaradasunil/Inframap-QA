@@ -1,9 +1,10 @@
 # InfraMap releases
 
-This repository contains versioned, self-contained Expo project snapshots for Android and iOS.
+Version 1.0.1 combines Android and iOS into one shared Expo project:
 
-- Android: `android/1.0.0`
-- iOS: `IOS/1.0.0`
+- Shared cross-platform code: `app/1.0.1`
+- Android 1.0.0 snapshot: `android/1.0.0`
+- iOS 1.0.0 snapshot: `IOS/1.0.0`
 
-See each version folder's README for build steps. Keep future releases in a new version folder (for example `1.0.1`) so prior release source stays intact.
+Build the shared project for Android or iOS using the instructions in `app/1.0.1/README.md`. Historical 1.0.0 snapshots are retained.
 
